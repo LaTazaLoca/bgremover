@@ -27,7 +27,7 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Cargar modelo al iniciar (tarda la primera vez, después es rápido)
-MODEL_NAME = os.environ.get("REMBG_MODEL", "u2net")
+MODEL_NAME = os.environ.get("REMBG_MODEL", "u2netp")
 session = None
 
 def get_session():
