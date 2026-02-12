@@ -231,5 +231,5 @@ if __name__ == "__main__":
     ╚════════════════════════════════════╝
     """)
     # Pre-cargar modelo
-    get_session()
+    #get_session()
     app.run(host="0.0.0.0", port=port, debug=False)
